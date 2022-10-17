@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background: url("../images/header-background.png") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4.3rem;
+}
+
+header h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #31a8dd;
+}
+
+header p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  line-break: strict;
+  color: #ffffff;
+}
+
+header button {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.21em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3ba1cd), to(#1572b7));
+  background: linear-gradient(180deg, #3ba1cd 0%, #1572b7 100%);
+  color: #31a8dd;
+  background: none;
+  padding: 20px 35px;
+  cursor: pointer;
+  border: 2px solid;
+}
+
+header button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3ba1cd), to(#1572b7));
+  background: linear-gradient(180deg, #3ba1cd 0%, #1572b7 100%);
+  color: #000000;
+}
+
+.divisor {
+  height: 1px;
+  width: 100%;
+  background-color: #31a8dd;
+}
+
+.modules {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.modules h2 {
+  text-transform: uppercase;
+  color: #31a8dd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  letter-spacing: 0.19em;
+}
+
+.modules p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.modules .modules-container {
+  height: 60px;
+  width: 560px;
+  background-color: #252525;
+  padding: 16px 127px;
+  border: 1px solid #33a8db;
+  border-radius: 57px;
+  -webkit-box-shadow: -2px 6px 4px 0px #00000066 inset;
+          box-shadow: -2px 6px 4px 0px #00000066 inset;
+}
+
+.modules .modules-container p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  max-width: 1200px;
+}
+
+.depoiments {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 4rem;
+}
+
+.depoiments h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  color: #31a8dd;
+}
+
+.depoiments p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  max-width: 1200px;
+}
+
+footer {
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+footer p a {
+  color: #31a8dd;
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */
